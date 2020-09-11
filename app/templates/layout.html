@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Twitter/Spoonacular App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  </head>
+  <body>
+    <!-- <div class="nav-bar">
+      <a href="/index">Home</a>
+    </div> -->
+    <a href="{{ url_for('index') }}">
+      <div class='title-bar'>
+        <div id="title">
+          Recipe Roulette
+        </div>
+      </div>
+    </a>
+    <div class="container">
+      {% block content %}
+      {% endblock %}
+    </div>
+  </body>
+
+</html>
