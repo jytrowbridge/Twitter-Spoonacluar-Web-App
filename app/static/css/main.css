@@ -45,3 +45,22 @@ body {
 .div-link {
   text-decoration: none;
 }
+
+.recipe-wrapper {
+  text-align: center;
+}
+
+.recipe-wrapper > * {
+  margin: 15px;
+}
+
+.recipe-title {
+  font-size: large;
+  font-weight: bold;
+}
+
+.recipe-image {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 80%;
+}

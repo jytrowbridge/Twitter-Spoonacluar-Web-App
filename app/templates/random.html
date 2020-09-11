@@ -1,5 +1,12 @@
 {% extends 'layout.html' %}
 
 {% block content %}
-  <h1>{{ recipe.title }}</h1>
+  <div class="recipe-wrapper">
+    <div class="recipe-title">
+        {{ recipe.title }}
+    </div>
+    <div class="recipe-image-wrapper">
+      <img src="{{ recipe.image_url }}" alt="Recipe image" class="recipe-image">
+    </div>
+  </div>
 {% endblock %}
