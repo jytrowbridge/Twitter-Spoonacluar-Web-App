@@ -1,25 +1,26 @@
 from dotenv import load_dotenv
-#import json
 import os
-import requests
+from app.static.scripts.get_request import get_request
 
 load_dotenv()
 
 API_KEY = os.getenv('SPOONACULAR_API_KEY')
 params = {'apiKey': API_KEY}
 
+url = "https://api.spoonacular.com/recipes/random"
+
 
 def get_random_recipe():
-    try:
-        response = requests.get(
-            "https://api.spoonacular.com/recipes/random",
-            params=params
-        )
-        response.raise_for_status()
-    except requests.exceptions.HTTPError as err:
-        raise SystemExit(err)
+    # Return random recipe from spoonacular API.
+    # Return value is a dictionary with following properties:
+    #   'title' : the title of the recipe
+    #   'image_url' : the url of the image for the recipe
+    #   'source_url' : the url of the original recipe source
 
-    resp_json = response.json()
+    resp_json = get_request(
+        url,
+        params=params
+    )
     recipe = resp_json['recipes'][0]
     return {
         'title': recipe['title'],

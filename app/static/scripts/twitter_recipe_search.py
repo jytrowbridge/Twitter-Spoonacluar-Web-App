@@ -1,27 +1,25 @@
-import os
 from dotenv import load_dotenv
-import requests
+import os
+from app.static.scripts.get_request import get_request
 load_dotenv()
-#http: // jonathansoma.com/lede/foundations-2019/classes/apis/keeping-api-keys-secret/
 
 BEARER_TOKEN = os.getenv('TWITTER_BEARER_TOKEN')
-header = {'authorization': f'Bearer {BEARER_TOKEN}'}
+headers = {'authorization': f'Bearer {BEARER_TOKEN}'}
+url = 'https://api.twitter.com/1.1/search/tweets.json'
 
 
 def search_twitter(query, count=5):
+    # Return search result from Twitter API given for given query and count.
+    # Return value is the list of tweets.
+
     params = {
         'q': query,
         'count': count
     }
+    resp_json = get_request(
+        url=url,
+        headers=headers,
+        params=params
+    )
 
-    try:
-        response = requests.get(
-            'https://api.twitter.com/1.1/search/tweets.json',
-            headers=header,
-            params=params
-        )
-        response.raise_for_status()
-    except requests.exceptions.HTTPError as err:
-        raise SystemExit(err)
-
-    return response.json()['statuses']
+    return resp_json['statuses']
