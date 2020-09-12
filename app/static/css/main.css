@@ -101,3 +101,52 @@ body {
   padding: 10px;
   margin: 0;
 }
+
+#submit-btn {
+  margin-top: 15px;
+  border: none;
+  padding: 5px 0px;
+  border-radius: 5px;
+  width: 100px;
+}
+
+#submit-btn:hover {
+  background-color: rgb(39, 39, 39);
+  color:white;
+}
+
+.search-result {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.search-result:hover {
+  cursor: pointer;
+  text-shadow: 1px 0px 0px black;
+  box-shadow: 0px 0px 10px lightgray;
+}
+
+.search-result:hover .thumbnail {
+  transform: scale(1.1);
+}
+
+.search-result-thumbnail-wrapper {
+  overflow: hidden;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.thumbnail {
+  width: 100px;
+  border-radius: 50%;
+  height: 100px;
+  object-fit: cover;
+  transition-duration: 500ms;
+}
+
+.search-result-title {
+  margin-left: 25px;
+}
