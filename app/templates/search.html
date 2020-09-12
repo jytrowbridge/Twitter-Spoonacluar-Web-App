@@ -4,6 +4,24 @@
     <div class="title">
       Search Recipes
     </div>
-    <input type="text" id="search-value" name="search-value">
+    <form id="search-form" action="" method="post">
+      <input type="text" id="search-value" name="search-value" value="{{ search_query }}">
+      <input type="submit" value="Search" id="submit-btn">
+    </form>
+    {% if search_results[0] == -1 %}
+      <div>
+        No Results Found :(
+      </div>
+    {% elif search_results|length > 0 %}
+      <div id="search-results">
+        {% for recipe in search_results %}
+          <div class="search-result">
+            {{ recipe.title }}
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
   </div>
+
+  <!-- <script type="text/javascript" src="{{ url_for('static', filename='scripts/search.js') }}"></script> -->
 {% endblock %}
