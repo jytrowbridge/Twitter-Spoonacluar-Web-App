@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body > * {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -46,15 +54,15 @@ body {
   text-decoration: none;
 }
 
-.recipe-wrapper {
+.wrapper {
   text-align: center;
 }
 
-.recipe-wrapper > * {
+.wrapper > * {
   margin: 15px;
 }
 
-.recipe-title {
+.title {
   font-size: large;
   font-weight: bold;
 }
@@ -84,4 +92,12 @@ body {
 
 .tweet-username {
   font-size: small;
+}
+
+#search-value {
+  width: 75%;
+  border-radius: 15px;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
 }

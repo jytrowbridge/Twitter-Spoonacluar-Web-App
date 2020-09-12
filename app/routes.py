@@ -18,9 +18,14 @@ def random():
     if len(tweets) == 0:
         tweets = search_twitter((' ').join(recipe['title'].split(' ')[0:2]))
 
-    #print(tweet.text) 
     return render_template(
-        'random.html',
+        'show_recipe.html',
         recipe=recipe,
         tweets=tweets
+    )
+
+@app.route('/search')
+def search():
+    return render_template(
+        'search.html'
     )
