@@ -9,4 +9,16 @@
       <img src="{{ recipe.image_url }}" alt="Recipe image" class="recipe-image">
     </div>
   </div>
+  <div class="tweet-wrapper">
+    {% for tweet in tweets %}
+      <div class="tweet">
+        <div class="tweet-text">
+          {{ tweet.text }}
+        </div>
+        <div class="tweet-username">
+          - {{ tweet.user.screen_name }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
 {% endblock %}

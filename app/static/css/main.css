@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  width: 50vw;
+  width: 33vw;
   margin: auto;
 }
 
@@ -63,4 +63,25 @@ body {
   border: 1px solid black;
   border-radius: 15px;
   width: 80%;
+}
+
+.tweet {
+  margin-bottom: 10px;
+}
+
+.tweet:nth-child(odd) {
+  margin-right: 150px;
+}
+
+.tweet:nth-child(even) {
+  text-align: right;
+  margin-left: 150px;
+}
+
+.tweet-text {
+  font-weight: bold;
+}
+
+.tweet-username {
+  font-size: small;
 }

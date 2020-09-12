@@ -1,0 +1,299 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": false,
+  "veryHealthy": false,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "weightWatcherSmartPoints": 11,
+  "gaps": "no",
+  "lowFodmap": false,
+  "aggregateLikes": 115,
+  "spoonacularScore": 93.0,
+  "healthScore": 36.0,
+  "creditsText": "Jen West",
+  "license": "CC BY-SA 3.0",
+  "sourceName": "Pink When",
+  "pricePerServing": 326.96,
+  "extendedIngredients": [
+    {
+      "id": 2069,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "balsamic-vinegar.jpg",
+      "consistency": "liquid",
+      "name": "balsamic vinegar",
+      "original": "3 (Tbsp) balsamic vinegar",
+      "originalString": "3 (Tbsp) balsamic vinegar",
+      "originalName": "balsamic vinegar",
+      "amount": 1.0,
+      "unit": "Tbsp",
+      "meta": [
+        "(Tbsp)"
+      ],
+      "metaInformation": [
+        "(Tbsp)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        }
+      }
+    },
+    {
+      "id": 5062,
+      "aisle": "Meat",
+      "image": "chicken-breasts.png",
+      "consistency": "solid",
+      "name": "chicken breast",
+      "original": "organic chicken breast (because it's healthy!)",
+      "originalString": "organic chicken breast (because it's healthy!)",
+      "originalName": "organic chicken breast (because it's healthy!)",
+      "amount": 1.0,
+      "unit": "serving",
+      "meta": [
+        "organic",
+        "(because it's healthy!)"
+      ],
+      "metaInformation": [
+        "organic",
+        "(because it's healthy!)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "serving",
+          "unitLong": "serving"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "serving",
+          "unitLong": "serving"
+        }
+      }
+    },
+    {
+      "id": 1026,
+      "aisle": "Cheese",
+      "image": "mozzarella.png",
+      "consistency": "solid",
+      "name": "mozzarella cheese",
+      "original": "mozzarella cheese",
+      "originalString": "mozzarella cheese",
+      "originalName": "m zarella cheese",
+      "amount": 1.0,
+      "unit": "oz",
+      "meta": [],
+      "metaInformation": [],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "oz",
+          "unitLong": "ounce"
+        },
+        "metric": {
+          "amount": 28.35,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 4053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "liquid",
+      "name": "olive oil",
+      "original": "3 (Tbsp) basil olive oil",
+      "originalString": "3 (Tbsp) basil olive oil",
+      "originalName": "basil olive oil",
+      "amount": 1.0,
+      "unit": "Tbsp",
+      "meta": [
+        "(Tbsp)"
+      ],
+      "metaInformation": [
+        "(Tbsp)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        }
+      }
+    },
+    {
+      "id": 11529,
+      "aisle": "Produce",
+      "image": "tomato.png",
+      "consistency": "solid",
+      "name": "tomato",
+      "original": "tomato",
+      "originalString": "tomato",
+      "originalName": "tomato",
+      "amount": 1.0,
+      "unit": "serving",
+      "meta": [],
+      "metaInformation": [],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "serving",
+          "unitLong": "serving"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "serving",
+          "unitLong": "serving"
+        }
+      }
+    }
+  ],
+  "id": 730914,
+  "title": "Basil Infused Balsamic Oven Baked Chicken",
+  "readyInMinutes": 45,
+  "servings": 1,
+  "sourceUrl": "http://www.pinkwhen.com/basil-infused-balsamic-oven-baked-chicken/",
+  "image": "https://spoonacular.com/recipeImages/730914-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Basil Infused Balsamic Oven Baked Chicken might be just the main course you are searching for. One serving contains <b>384 calories</b>, <b>32g of protein</b>, and <b>24g of fat</b>. For <b>$2.27 per serving</b>, this recipe <b>covers 22%</b> of your daily requirements of vitamins and minerals. Head to the store and pick up balsamic vinegar, tomato, mozzarella cheese, and a few other things to make it today. To use up the olive oil you could follow this main course with the <a href=\"https://spoonacular.com/recipes/sauteed-banana-granola-and-yogurt-parfait-624619\">Sauteed Banana, Granolan and Yogurt Parfait</a> as a dessert. This recipe is liked by 115 foodies and cooks. It is a good option if you're following a <b>gluten free, primal, and fodmap friendly</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 83%</b>. This score is amazing. Try <a href=\"https://spoonacular.com/recipes/balsamic-citrus-infused-chicken-84033\">Balsamic Citrus Infused Chicken</a>, <a href=\"https://spoonacular.com/recipes/whole-chicken-baked-in-a-thyme-infused-salt-crust-254970\">Whole Chicken Baked in a Thyme Infused Salt Crust</a>, and <a href=\"https://spoonacular.com/recipes/crudite-with-infused-olive-oil-and-balsamic-360918\">Crudite with Infused Olive Oil and Balsamic</a> for similar recipes.",
+  "cuisines": [],
+  "dishTypes": [
+    "lunch",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free",
+    "primal"
+  ],
+  "occasions": [],
+  "instructions": "Place into the oven and bake for 40 minutes. Cover with mozzarella cheese and place back into the oven for 10 additional minutes. Use a thermometer make sure the internal temp is 160 for the chicken to be fully cooked. If not, allow to cook for a few additional minutes until the desired temp is reached.Allow to cool slightly and serve with your favorite salad.Basil Infused Balsamic Oven Baked ChickenI LOVE this recipe. If you want to join in on the Simple Fit Forty Lifestyle campaign we are kicking off here on PinkWhen, then make sure you sign up for the newsletter and stay up to date. You can also follow along in our private Facebook community, Simple Fit Forty Lifestyle, where we will be sharing all things fit an healthy and motivating each other along the way.JOIN 500,000 SUBSCRIBERS!Join over 500,000 others who follow PinkWhen on Social Media, the PinkWhen blog, and email. Sign up to receive exclusive bonuses like this FREE Simple Fit Dinners Ebook.Don't wait! You won't want to miss a thing.Success! Now check your email to confirm your subscription and download your FREE ebook.There was an error submitting your subscription. Please try again.First NameEmail AddressSubscribePowered by ConvertKit",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place into the oven and bake for 40 minutes. Cover with mozzarella cheese and place back into the oven for 10 additional minutes. Use a thermometer make sure the internal temp is 160 for the chicken to be fully cooked. If not, allow to cook for a few additional minutes until the desired temp is reached.Allow to cool slightly and serve with your favorite salad.Basil Infused Balsamic Oven",
+          "ingredients": [
+            {
+              "id": 1026,
+              "name": "mozzarella",
+              "localizedName": "mozzarella",
+              "image": "mozzarella.png"
+            },
+            {
+              "id": 5006,
+              "name": "whole chicken",
+              "localizedName": "whole chicken",
+              "image": "whole-chicken.jpg"
+            },
+            {
+              "id": 2044,
+              "name": "basil",
+              "localizedName": "basil",
+              "image": "basil.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404789,
+              "name": "kitchen thermometer",
+              "localizedName": "kitchen thermometer",
+              "image": "food-thermometer.jpg"
+            },
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "oven.jpg"
+            }
+          ],
+          "length": {
+            "number": 40,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 2,
+          "step": "Baked ChickenI LOVE this recipe. If you want to join in on the Simple Fit Forty Lifestyle campaign we are kicking off here on Pink",
+          "ingredients": [],
+          "equipment": []
+        },
+        {
+          "number": 3,
+          "step": "When, then make sure you sign up for the newsletter and stay up to date. You can also follow along in our private Facebook community, Simple Fit Forty Lifestyle, where we will be sharing all things fit an healthy and motivating each other along the way.JOIN 500,000 SUBSCRIBERS!Join over 500,000 others who follow Pink",
+          "ingredients": [
+            {
+              "id": 9087,
+              "name": "dates",
+              "localizedName": "dates",
+              "image": "dates.jpg"
+            }
+          ],
+          "equipment": []
+        },
+        {
+          "number": 4,
+          "step": "When on Social Media, the Pink",
+          "ingredients": [],
+          "equipment": []
+        },
+        {
+          "number": 5,
+          "step": "When blog, and email. Sign up to receive exclusive bonuses like this FREE Simple Fit Dinners Ebook.Don't wait! You won't want to miss a thing.Success! Now check your email to confirm your subscription and download your FREE ebook.There was an error submitting your subscription. Please try again.First Name",
+          "ingredients": [],
+          "equipment": []
+        },
+        {
+          "number": 6,
+          "step": "Email",
+          "ingredients": [],
+          "equipment": []
+        },
+        {
+          "number": 7,
+          "step": "Address",
+          "ingredients": [],
+          "equipment": []
+        },
+        {
+          "number": 8,
+          "step": "Subscribe",
+          "ingredients": [],
+          "equipment": []
+        },
+        {
+          "number": 9,
+          "step": "Powered by Convert",
+          "ingredients": [],
+          "equipment": []
+        },
+        {
+          "number": 10,
+          "step": "Kit",
+          "ingredients": [],
+          "equipment": []
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularSourceUrl": "https://spoonacular.com/basil-infused-balsamic-oven-baked-chicken-730914"
+}
